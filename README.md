@@ -4,7 +4,7 @@ Ben Braniff
 
 CSI 3150
 Professor Sen
-
+# Questions & Answers
 1.	Problem statement of the App: A concise summary of less than 150 words outlining what the app is all about.
 
     ```
@@ -93,3 +93,11 @@ Professor Sen
 
     Integrating audio feedback for answers.
     ```
+
+# Refereces
+
+[martysen > DemoQuizApp](https://github.com/martysen/DemoQuizApp/)
+
+[adam-p > markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#links)
+
+[lifeparticle > Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet)

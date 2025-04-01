@@ -14,27 +14,35 @@ Professor Sen
 2.	Functional features of the App: written as a bullet list, outline the functional features of the app.
 
     ```
-    - Start Quiz button to begin the quiz.
+    Start Quiz:
+    Allows the user to begin the quiz.
 
-    - Instruction box displaying quiz rules.
+    Quiz Instructions:
+    Displays rules and instructions before starting the quiz.
 
-    - Multiple-choice questions dynamically loaded from questions.js.
+    Timer:
+    Tracks 15 seconds for each question.
 
-    - Countdown timer (15 seconds per question).
+    Question Display:
+    Dynamically displays questions with options.
 
-    - Automatic answer validation (correct and incorrect indicators).
+    Answer Validation:
+    Evaluates whether the selected answer is correct or incorrect.
 
-    - Score tracking and display upon quiz completion.
+    Score Calculation:
+    Calculates and displays the user's score at the end of the quiz.
 
-    - Restart and Quit options after completing the quiz.
+    Progress Bar:
+    Shows a visual representation of the remaining time.
 
-    - Responsive UI with interactive elements.
+    Next Question:
+    Navigates to the next question after the user selects an answer.
 
-    - Local storage support for tracking high scores.
+    Result Display:
+    Shows the user's score at the end of the quiz.
 
-    - Audio feedback for correct and incorrect answers.
-
-    - Randomized question selection to enhance replayability.
+    Replay and Exit:
+    Options to replay the quiz or exit it at any point.
     ```
 
 3.	Explanation of the directory structure/setup of the App as present in the code base and how different files are linked and working together.
@@ -62,8 +70,6 @@ Professor Sen
     Defines styles for quiz elements, including buttons, containers, and animations.
 
     Provides responsive design adjustments.
-
-    Includes styles for high-score displays.
     ```
     ### questions.js
     ```

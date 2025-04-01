@@ -101,3 +101,5 @@ Professor Sen
 [adam-p > markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#links)
 
 [lifeparticle > Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet)
+
+[CSI-3150-TH5-W25.pdf](https://github.com/BenBraniff/TakeHome-5/blob/main/references/CSI-3150-TH5-W25.pdf)

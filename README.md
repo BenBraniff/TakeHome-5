@@ -39,4 +39,51 @@ Professor Sen
 
 3.	Explanation of the directory structure/setup of the App as present in the code base and how different files are linked and working together.
 
+    ```
+    - index.html links to style.css for styling and quizApp.js for quiz logic.
+
+    - quizApp.js dynamically loads questions from questions.js.
+
+    - questions.js contains the question data array.
+    ```
+
 4.	Explanation of the codebase in each of relevant files, which in this case are the index.html, style.css, questions.js, and quizApp.js files.
+
+    ### index.html
+    ```
+    Contains the quiz UI elements: start button, info box, quiz box, result box.
+
+    Links external CSS and JavaScript files.
+
+    Uses <script> with defer to ensure scripts load after HTML.
+    ```
+    ### style.css
+    ```
+    Defines styles for quiz elements, including buttons, containers, and animations.
+
+    Provides responsive design adjustments.
+
+    Includes styles for high-score displays.
+    ```
+    ### questions.js
+    ```
+    Stores an array of objects, each representing a question with options and the correct answer.
+
+    Used by quizApp.js to populate quiz content dynamically.
+    ```
+    ### quizApp.js
+    ```
+    Manages quiz logic, including:
+
+    Event listeners for buttons (Start, Next, Restart, Quit).
+
+    Functions to display questions, validate answers, and update the score.
+
+    Timer and progress bar management.
+
+    Handling of correct and incorrect answers with visual feedback.
+
+    Displaying quiz results at the end.
+
+    Integrating audio feedback for answers.
+    ```
